@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/personal-banker-finder",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

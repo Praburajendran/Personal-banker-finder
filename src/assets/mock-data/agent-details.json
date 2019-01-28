@@ -1,0 +1,84 @@
+[
+   {
+      "Name":"Rakesh",
+      "Position":"Supervisor",
+      "Rating":"5",
+      "Comments":[
+         "Rakesh handles my account details nicely and provided good investment plans which i was not aware",
+         "Rakesh was very talented",
+         "he has good helping tendency"
+      ],
+      "Address":"BTM 1st Stage, Bangalore",
+      "imagePath":"../assets/agent-images/agent1.jfif"
+   },
+   {
+      "Name":"Naga",
+      "Position":"Executive",
+      "Rating":"4",
+      "Comments":[
+         "he was very nice to us and explain things nicely",
+         "good human being and talented executive",
+         "very professional"
+      ],
+      "Address":"Koramangala, Bangalore",
+      "imagePath":"../assets/agent-images/agent2.jfif"
+   },
+   {
+      "Name":"Rajkumar",
+      "Position":"Relationship Manager",
+      "Rating":"3",
+      "Comments":[
+         "he was very helpful with my loan process",
+         "he has nice helping tendency"
+      ],
+      "Address":"Bommasandra, Bangalore",
+      "imagePath":"../assets/agent-images/agent3.jfif"
+   },
+   {
+      "Name":"Karthikeyan",
+      "Position":"Engagement Partner",
+      "Rating":"4",
+      "Comments":[
+         "very nice and frienly guy",
+         "he has nice helping tendency",
+        "very professional"
+      ],
+      "Address":"Hosa Road, Bangalore",
+      "imagePath":"../assets/agent-images/agent4.jpg"
+   },
+   {
+      "Name":"Raja Prabakar",
+      "Position":"Agent",
+      "Rating":"3",
+      "Comments":[
+         "he handles my account details nicely and provided good investment plans which i was not aware",
+         "he has nice helping tendency",
+         "he was very nice to us and explain things nicely"
+      ],
+      "Address":"Shivaji Nagar, Bangalore",
+      "imagePath":"../assets/agent-images/agent5.jfif"
+   },
+   {
+      "Name":"Manikandan",
+      "Position":"Executive",
+      "Rating":"5",
+      "Comments":[
+         "was very talented",
+         "very professional",
+         "he has nice helping tendency"
+      ],
+      "Address":"Jigani, Bangalore",
+      "imagePath":"../assets/agent-images/agent6.jfif"
+   },
+   {
+      "Name":"Venkatachalam",
+      "Position":"Agent",
+      "Rating":"4",
+      "Comments":[
+         "was very talented",
+         "he has nice helping tendency"
+      ],
+      "Address":"Chandapura, Bangalore",
+      "imagePath":"../assets/agent-images/agent7.jfif"
+   }
+]

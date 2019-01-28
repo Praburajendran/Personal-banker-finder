@@ -1,0 +1,67 @@
+<div id="container">
+   <!-- Modal -->
+   <div class="modal fade" id="overlayval" role="dialog" #overlayval>
+      <div class="modal-dialog">
+         <!-- Modal content-->
+         <div class="modal-content">
+            <div class="modal-header">
+               <h3 class="modal-title">Details about Your Banker</h3>
+            </div>
+            <div class="modal-body">
+               <div class="container">
+
+                  <div class="row">
+                      <div class="col-sm">
+                         <img src={{imageLink}} height="180" width="180">
+                     </div>
+                    <div class="col-sm">
+                        <h4>Name</h4>
+                        <h5>{{agentName}}</h5>
+                     </div>
+                     <div class="col-sm">
+                        <h4>Comments</h4>
+                        <ul>
+                           <li *ngFor="let comments of commentslist"> 
+                              {{ comments }}
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="col-sm">
+                        <h4>Address</h4>
+                        <h5>{{agentAddress}}</h5>
+                     </div>
+                     <div class="col-sm">
+                        <h4>Rating</h4>
+                        <rating [(ngModel)]="starsCount" fullIcon="◆" emptyIcon="◇" [readonly]="true"></rating>
+                     </div>
+                     <div class="col-sm">
+                        <h4>Select your appointment</h4>
+                        <form [formGroup]="inputMapForm" (ngSubmit)="submitForm()">
+                        <div class="form-group">
+                           <div class="input-group">
+                              <!--<sq-datetime-picker
+                                 [maxDate]="12/31/2018"
+                                 [minDate]="12/21/2018"
+                                 format="MM/DD/YYYY"
+                                 formControlName="standAloneDatepicker">
+                                 </sq-datetime-picker>-->
+                              <div class="col-md-6">
+                                 <kendo-datepicker>
+                                 </kendo-datepicker>
+                              </div>
+                           </div>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Book an appointment</button>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id='map' class='flex-expand'></div>
+</div>
